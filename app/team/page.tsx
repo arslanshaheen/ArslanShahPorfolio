@@ -3,33 +3,32 @@ import TeamCard from "@/components/TeamCard";
 const Team = () => {
   const people = [
     {
-      name: "Moin Khan",
+      name: "Arslan Karim",
       role: "Senior UX/UI Designer",
-      imageUrl: "/images/moin.png",
+      imageUrl: "/images/gajni.jpg",
       githubUrl: "/team",
       linkedinUrl: "/team",
-      upworkUrl:
-        "https://www.upwork.com/freelancers/~0121087c3a96b9fb84?referrer_url_path=%2Fnx%2Fsearch%2Ftalent%2Fdetails%2F~0121087c3a96b9fb84%2Fprofile",
+      upworkUrl: "https://www.upwork.com/nx/find-work/best-matches",
     },
     {
-      name: "Waseem Kashif",
-      role: "Senior Web Developer",
-      imageUrl: "/images/waseemPro.png",
-      githubUrl: "https://github.com/waseemKashif",
-      linkedinUrl: "https://www.linkedin.com/in/waseem-kashif/",
-      upworkUrl: "https://www.upwork.com/freelancers/~0103b29d00a999eebb",
+      name: "Arslan Kashif",
+      role: " Web Developer",
+      imageUrl: "/images/img3.jpg",
+      githubUrl: "https://github.com/",
+      linkedinUrl: "https://www.linkedin.com/feed/",
+      upworkUrl: "https://www.upwork.com/nx/find-work/best-matches",
     },
     {
-      name: "Sameer Aslam",
-      role: "Senior React Native Developer",
-      imageUrl: "/images/sameer.png",
-      githubUrl: "https://github.com/waseemKashif",
-      linkedinUrl: "https://www.linkedin.com/in/waseem-kashif/",
-      upworkUrl: "https://www.upwork.com/freelancers/~0103b29d00a999eebb",
+      name: "",
+      role: "Grapic Designer",
+      imageUrl: "/images/IMG.JPG",
+      githubUrl: "https://github.com/",
+      linkedinUrl: "https://www.linkedin.com/feed/",
+      upworkUrl: "https://www.upwork.com/nx/find-work/best-matches",
     },
   ];
   return (
-    <div className="bg-gray-900 py-24 sm:py-32">
+    <div className="bg-blue-900  py-24 sm:py-32">
       <div className="mx-auto max-w-7xl px-6 text-center lg:px-8">
         <div className="mx-auto max-w-2xl">
           <h2 className="text-3xl font-bold tracking-tight text-white sm:text-4xl">

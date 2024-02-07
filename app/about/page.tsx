@@ -24,13 +24,12 @@ const About = () => {
           <div className="mx-auto max-w-2xl gap-x-14 lg:mx-0 lg:flex lg:max-w-none lg:items-center">
             <div className="w-full max-w-xl lg:shrink-0 xl:max-w-2xl">
               <h1 className="text-3xl font-bold tracking-tight text-white sm:text-5xl">
-                Front-End Wizardry by Waseem Kasif - Crafting Interactive Web
-                Experiences
+                Front-End by arslan - Crafting Interactive Web Experiences
               </h1>
               <p className="relative mt-6 text-lg md:text-xl leading-8 text-gray-200 sm:max-w-md lg:max-w-none">
                 Welcome! I&apos;m{" "}
                 <span className=" font-medium text-indigo-500">
-                  Waseem Kashif{" "}
+                  arslan shah{" "}
                 </span>{" "}
                 , a dedicated and innovative front-end web developer with over 3
                 years of hands-on experience in building and optimizing
@@ -38,8 +37,7 @@ const About = () => {
                 including
                 <span className=" text-indigo-500 font-medium">
                   {" "}
-                  JavaScript, React.js, Next.js, Vue.js, SvelteKit, and
-                  TypeScript,
+                  JavaScript, React.js, Next.js, and html css,
                 </span>{" "}
                 I excel in turning design concepts into user-centric digital
                 experiences.
@@ -51,7 +49,7 @@ const About = () => {
                   <Image
                     width={1000}
                     height={700}
-                    src="/images/waseem05.png"
+                    src="/images/img2.jpg"
                     alt="waseem"
                     className="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg"
                   />
@@ -63,7 +61,7 @@ const About = () => {
                   <Image
                     width={1000}
                     height={700}
-                    src="/images/waseem06.png"
+                    src="/images/arslana.JPG"
                     alt="waseem"
                     className="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg"
                   />
@@ -73,7 +71,7 @@ const About = () => {
                   <Image
                     width={1000}
                     height={700}
-                    src="/images/waseem01.png"
+                    src="/images/img3.JPG"
                     alt="waseem"
                     className="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg"
                   />
@@ -85,7 +83,7 @@ const About = () => {
                   <Image
                     width={1000}
                     height={700}
-                    src="/images/waseem02.png"
+                    src="/images/img5.jpg"
                     alt="waseem"
                     className="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg"
                   />
@@ -95,7 +93,7 @@ const About = () => {
                   <Image
                     width={1000}
                     height={700}
-                    src="/images/waseem03.png"
+                    src="/images/img9.jpg"
                     alt="waseem"
                     className="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg"
                   />

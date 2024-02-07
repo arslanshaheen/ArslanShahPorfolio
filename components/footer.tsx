@@ -15,23 +15,23 @@ const navigation = {
   social: [
     {
       name: "Facebook",
-      href: "https://www.facebook.com/wasim.flame/",
+      href: "https://www.facebook.com",
       icon: <FacebookIcon className="h-6 w-6" />,
     },
     {
       name: "Instagram",
-      href: "https://www.instagram.com/waseem_gilgiti99/",
+      href: "https://www.instagram.com",
       icon: <InstagramIcon className="h-6 w-6" />,
     },
 
     {
       name: "GitHub",
-      href: "https://github.com/waseemKashif/",
+      href: "https://github.com/",
       icon: <GithubIcon className="h-6 w-6" />,
     },
     {
       name: "Linkedin",
-      href: "https://www.linkedin.com/in/waseem-kashif/",
+      href: "https://www.linkedin.com/feed/",
       icon: <LinkedinIcon className="h-5 w-5" />,
     },
   ],
@@ -67,7 +67,7 @@ export default function Example() {
             ))}
           </div>
           <p className="mt-10 text-center text-xs leading-5 text-gray-300">
-            &copy; 2023 Waseem Kashif, All rights reserved.
+            &copy; 2023 Arslan, All rights reserved.
           </p>
         </div>
       </footer>

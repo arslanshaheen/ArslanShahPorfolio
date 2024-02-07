@@ -4,67 +4,50 @@ import Container from "@/components/Container";
 const Projects = () => {
   const projectsData = [
     {
-      image: "/images/gilgitApp.png",
-      title: " Gilgit App",
+      image: "/images/project.png",
+      title: " book-name-entery",
       description:
-        "GilgitApp is a free online marketplace for buying and selling products/items anywhere in Pakistan. including cars, bikes, and many others. I am working as a front-end developer, This product is powered by Uconnect Technologies from Gilgit.",
-      techList: "HTML, React Js, Tailwindcss, TypeScript",
-      liveLink: "https://gilgit.app/",
+        "i have build name-entery- website using react nodejs express mongodb I'm a React developer navigating seamlessly between the front-end and back-end realms, crafting robust and user-friendly digital experiences. With a passion for clean code and problem-solving, I bring creativity to design and efficiency to functionality.",
+      techList: "MongoDB, React Js, Tailwindcss, javascript ",
+      liveLink: "/",
       githubLink: "/",
     },
     {
-      image: "/images/letsheGo.png",
-      title: "let Nation Go",
+      image: "/images/store.png",
+      title: "shoping store",
       description:
-        "let Nation Go is a financial service group of companies, it is a proper banking system that provides funds for projects and gives loans to the people. Operated in Africa. I worked as a 3rd party font-end developer. It was one of my long-term projects, I learned React and Redux with Material UI",
-      techList: "React Js, JavaScript, Redux, Material UI",
-      liveLink: "https://www.letsgo.letshego.com",
+        "i have make shoping store using ant design and reactjs for buying products like a shoes ,cloths itemes",
+      techList:
+        "React Js, code editor, fake api, ant design click below live preview link and visit on website",
+      liveLink: "https://ant-ecommerce-snowy.vercel.app/",
       githubLink: "/",
     },
     {
-      image: "/images/cqed.svg",
-      title: "Cultural Intelligence",
+      image: "/images/quiz.png",
+      title: "make quize app",
       description:
-        "Cultural Intelligence (CQ) is effectively navigating and adapting to different cultural contexts. CQ is a crucial skill for success in today's globalized world. I developed this website for Christina, the owner of this project, UK.",
-      techList: "Next Js,React Js,TypeScript,Tailwindcss,etc",
-      liveLink: "https://globalcqed.com/",
-      githubLink: "https://github.com/afaq-karim/cqed-website",
+        "i have makee quize app Use React state to manage the quiz questions, selected answers, and results.Ensure our app looks good on various devices by leveraging Bootstrap's responsive utilities.",
+      techList: "Using only reactJs and boostrap",
+      liveLink: "https://quizapp-pearl.vercel.app/",
+      githubLink: "https://github.com/",
     },
     {
-      image: "/images/noonWeb.png",
-      title: "Noon Demo Website",
+      image: "/images/text.png",
+      title: "text editor",
       description:
-        "Noon is a UAE-based shopping website where multiple products are available to purchase and you can also shop at another online store. it functions just like Daraz, I was appointed as a test developer for this and I developed its home page for testing, Here are some of its records.",
-      techList: "Next Js,React Js,Tailwindcss",
-      liveLink: "https://noon-demo.vercel.app/",
-      githubLink: "https://github.com/waseemKashif/NoonWeb",
+        "In my initial phases I practiced the code and created a text editor app are available on my github account and you can also use it. it functions just like online text editor google, I was appointed as a test developer for this and I developed its home page for testing, Here are some of its records.",
+      techList: "Reactjs and bootstrap",
+      liveLink: "https://text-editor-sigma-ashen.vercel.app/",
+      githubLink: "https://github.com/",
     },
     {
-      image: "/images/youtubeImg.png",
-      title: "Youtube Clone",
+      image: "/images/porfolio.png",
+      title: "",
       description:
-        "In my initial phases I practiced the code and created a clone of YouTube which is fully functional and you can search for videos and watch videos online. It suggests only 10 related videos. But in the mean time, I will work on it more to make it look perfect.",
-      techList: "JavaScript,React Js,Semantic Css",
-      liveLink: "https://youtube-hooks-ten-zeta.vercel.app/",
-      githubLink: "https://github.com/waseemKashif/youtubeApp",
-    },
-    {
-      image: "/images/todo.png",
-      title: "Todo List Advance",
-      description:
-        "In 2021, I applied to a company for employment but I was not selected. At that time, I passed 3 of the interviews but the CTO did not recommended. This Todo application was their test task provided me, so I added this here to express my dedication. It is fully functional with local storage integrated.",
-      techList: "React Js,JavaScript,Css",
-      liveLink: "https://todolist-orcin-delta.vercel.app/",
-      githubLink: "https://github.com/waseemKashif/Todo",
-    },
-    {
-      image: "/images/arisSecure.png",
-      title: "Aries Secure",
-      description:
-        "I Developed this with Jeff the owner of Aries secure company, This was security provider company and I worked as 3rd party developer and developed it website for the user who subscribe its services. due to busy schedule of the owner I worked only 4 month on this project and the contract was ended.",
-      techList: "SvelteKit,Grpah QL, Tailwind Css",
-      liveLink: "/projects",
-      githubLink: "/projects",
+        " Hey there! I'm Arslan, a passionate web developer on a mission to turn ideas into interactive and user-friendly experiences. With a blend of creativity and technical prowess, I thrive in the world of web development, constantly seeking new challenges to conquer. below link my porfolio click and visit",
+      techList: "creact using nextjs",
+      liveLink: "https://porfolio-weld.vercel.app/",
+      githubLink: "https://github.com/",
     },
   ];
   return (
@@ -72,9 +55,9 @@ const Projects = () => {
       <div className=" flex flex-col gap-y-4  md:gap-y-6 pb-8  md:pb-10 text-center mt-12">
         <h1 className=" text-[#CCCCCC] text-4xl leading-normal  md:text-5xl font-bold md:leading-7 ">
           {" "}
-          Projects
+          My Project
         </h1>
-        <p className=" text-xl"> Things I&apos;ve built so far</p>
+        <p className=" text-xl"> I&apos;ve built my own website</p>
       </div>
       <div className=" flex flex-col md:grid md:grid-cols-2 lg:grid-cols-3 md:justify-between lg:gap-x-8 md:gap-x-6 gap-y-8 md:gap-y-16">
         {projectsData.map((item, index) => (

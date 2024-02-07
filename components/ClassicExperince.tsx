@@ -20,7 +20,7 @@ const ClassicExperince = () => {
             width={1000}
             height={700}
             className="h-96 w-full flex-none rounded-2xl object-cover shadow-xl lg:aspect-square lg:h-auto lg:max-w-sm"
-            src="/images/travel.png"
+            src="/images/img11.jpg"
             alt=""
           />
           <div className="w-full flex-auto">
@@ -28,10 +28,10 @@ const ClassicExperince = () => {
               Some classic experiences.
             </h2>
             <p className="mt-6 text-lg leading-8 text-gray-300">
-              I have lived in all five provinces of Pakistan, born in Queeta and
-              spent four years in Punjab, then moved to Hunza Gilgit and finally
-              went to Karachi. So on all these journeys I met so many people and
-              learned a lot of things.
+              I have lived in o Pakistan, born in Hunza distric and i have spent
+              , 7 years in karachi for study purpose after completed my
+              education move to own village . So on all these journey I met so
+              many people and learned a lot of things.
             </p>
             <ul
               role="list"

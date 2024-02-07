@@ -22,9 +22,9 @@ export default function Header() {
   const pathname = usePathname();
   const [downloadStard, setDownloadStart] = useState(false);
   const user = {
-    name: "Waseem Kashif",
-    email: "waseemkashif7@gmail.com",
-    imageUrl: "/images/waseemPro.png",
+    name: "Arslan",
+    email: "arslanshaheen@gmail.com",
+    imageUrl: "/images/meAdvance.jpg",
   };
   const [navigation, setNavigation] = useState([
     { name: "Home", href: "/", current: false },
@@ -101,7 +101,7 @@ export default function Header() {
                     >
                       <a
                         href="/assets/resume.pdf"
-                        download="Waseem_Kashif_Resume.pdf"
+                        download="ARSLAN_Resume.pdf"
                         className="flex items-center gap-x-1"
                         onClick={handleDownload}
                       >

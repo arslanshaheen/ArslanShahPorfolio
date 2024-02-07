@@ -4,28 +4,14 @@ import Container from "@/components/Container";
 const Gallery = () => {
   const GalleryData = [
     {
-      image: "/images/gilgitAppMe.png",
-      discription:
-        "Luckily I got a skill at acting and to promote GilgitApp application I was chosen to be brand ambassador of the product. After creating 4-5 ads, the application reach has risen and we got 500k downloads in a year. Here is one of video, facebook.com/gilgitapp/videos",
-      location: "Gilgit,Northern Areas of PK",
-      date: "8th Aug 2023",
-    },
-    {
-      image: "/images/china.png",
-      discription:
-        "It was a great experience. I was lucky enough to visit the China border, crossing from Khunjarb Pass located in the Northern Areas of Pakistan. I got a chance to visit Chinese territory  where I saw Chinese Army camps and their advanced monitoring mechanism to look after their area around the borders, All is done by robots and modern cameras.",
-      location: "China, kashgar",
-      date: "13 July 2017",
-    },
-    {
-      image: "/images/allama.png",
+      image: "/images/img5.jpg",
       discription:
         "One of my golden times was when I joined the 'Step Program' it was a week-stay program by STEP. The pic is one of the acts I did there, They gave me the task of becoming Dr Muhammad Allama Iqbal and doing street acts in front of many people. It was a great learning and self-building program.",
       location: "Al-Azhar Garden, Karachi PK",
       date: "23rd Sept 2016",
     },
     {
-      image: "/images/donation.png",
+      image: "/images/DSC_0416.JPG",
       discription:
         "Blood donation. I created a group of students from Gilgit Baltistan. Around 250 young students joined me to serve. Our primary goal was to give blood donations to the sick and poor people who came to Karachi for their treatments. This group still exists and working very well.",
       location: "Aga Khan University Hospital, Karachi",
@@ -39,23 +25,23 @@ const Gallery = () => {
       date: "4th Sept 2017",
     },
     {
-      image: "/images/solWasee.png",
+      image: "/images/img13.jpg",
       discription:
-        "This image was taken back in 2014, I got a chance and was selected to participate in the 'Junior Leadership Conference' JLC. It was a 3-day stay program where different speakers taught us about the environment and leadership learning was provided to a great extent. It was organized by SOL 'School Of Learning'.",
+        "This image was taken back in 2023, I go to picnic from Aga khan hospital at thats movement take this picture at that time was working in IT Office AKU . It was a working one year in IT as computer support engineerstay  taught us about the environment and leadership learning was provided to a great extent.",
       location: "Beach Luxary Hotel, Karachi",
       date: "14th Aug 2014",
     },
     {
-      image: "/images/hunting.png",
+      image: "/images/img12.jpg",
       discription:
-        "I belong to these mountains and grew up here climbing them at an early age. After hiking for a couple of days, we arrive here for hunting and to feed our cattle. I always loved to come here to hike and explore the beauty of nature. It keeps us physically fit and for good mental health.",
-      location: "Himalayan Mountains, Hunza",
+        "I belong to  mountains and grew up here climbing  at an early age. After hiking for a couple of days, we arrive here for hunting and to feed our cattle. I always loved to come here to hike and explore the beauty of nature. It keeps us physically fit and for good mental health.",
+      location: "Himalayan Mountains karakorum, Hunza",
       date: "25th Aug 2018",
     },
     {
-      image: "/images/ko.png",
+      image: "/images/a.jpg",
       discription:
-        "Taekwondo!, I am a green belt in taekwondo after one year of training. I took a predicate in the university-level championship of taekwondo. behind me 'Master Rehmatt Ali' my tanner who took 3rd position in the Korean Taekwondo championship. He is still giving training in the National Stadium as an Army trainer.",
+        " an intermediate practitioner in the thrilling world of mixed martial arts. With a passion for diverse fighting styles and a commitment to continuous improvement, [Name] has progressed beyond the beginner stage and now stands as a formidable force in the MMA arena.",
       location: "Iqra University, Karachi",
       date: "7th Dec 2018",
     },
