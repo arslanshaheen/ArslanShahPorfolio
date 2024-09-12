@@ -44,7 +44,7 @@ const ProfileImage = () => {
           strokeWidth="0"
           style={{ transition: "all 0.3s ease 0s;" }}
         ></path>
-        <image href="/images/meAdvance.jpg" x="15" y="12" className=" dpImg" />
+        <image href="/images/meAdvance.png" x="15" y="12" className=" dpImg" />
       </g>
     </svg>
   );

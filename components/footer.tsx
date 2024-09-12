@@ -67,7 +67,7 @@ export default function Example() {
             ))}
           </div>
           <p className="mt-10 text-center text-xs leading-5 text-gray-300">
-            &copy; 2023 Arslan, All rights reserved.
+            &copy; 2023 arslan, All rights reserved.
           </p>
         </div>
       </footer>
